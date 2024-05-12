@@ -20,4 +20,8 @@ export class NamesService {
         console.log("Nombre :" , this._names);
         return name;
     }
+
+    getNames(): string[] {
+        return this._names;
+    }
 }
